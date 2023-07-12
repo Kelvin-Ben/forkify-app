@@ -2,7 +2,6 @@
   "name": "forkify-app",
   "version": "1.0.0",
   "description": "An application to fetch different recipes from an API, add a recipe and also bookmark a recipe",
-  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
@@ -11,6 +10,12 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
-    "parcel": "^2.9.3"
+    "parcel": "^2.9.3",
+    "process": "^0.11.10",
+    "url": "^0.11.1"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0",
+    "regenerator-runtime": "^0.13.11"
   }
 }
